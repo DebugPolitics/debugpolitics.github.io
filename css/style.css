@@ -178,3 +178,10 @@ ul{
     }
 }
 
+@media only screen and (min-width: 800px) {
+  .wrapper {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
