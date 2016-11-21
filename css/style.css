@@ -1,6 +1,6 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, 
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, 
-font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
   padding: 0;
@@ -51,7 +51,7 @@ h2{
 body {
   height: 100%;
   margin: 0;
-  padding: 0; 
+  padding: 0;
   background-image: url('../assets/background.jpg');
   background-size:cover;
   background-repeat: no-repeat;
@@ -77,7 +77,7 @@ p {
 
 p.border {
  border-top: solid 3px #C9D0D4;
- padding-top: 32px; 
+ padding-top: 32px;
 }
 
 p:last-child{
@@ -135,7 +135,7 @@ a.button:hover{
 
 ul{
  border-top: solid 3px #C9D0D4;
-  padding-top: 32px; 
+  padding-top: 32px;
 }
 
 
@@ -162,10 +162,10 @@ ul{
 }
 
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
         .wrapper{
       background: #fff;
       box-shadow: none;
@@ -178,4 +178,3 @@ ul{
     }
 }
 
-}
