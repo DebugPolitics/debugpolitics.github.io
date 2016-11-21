@@ -19,7 +19,7 @@ a:active {
   outline: none; }
 
 body {
-  line-height: 1;
+  line-height: 1.6;
   color: black;
   background: white;
   font-size: 14px; }
@@ -113,7 +113,7 @@ a.button:hover{
 }
 
 .email {
-  margin-top: 84px;
+  margin-top: 64px;
   font-size: 14px;
 }
 
@@ -126,16 +126,22 @@ a.button:hover{
 }
 
 .wrapper li a{
-    color: #2E3133;
+  color: rgb(31, 76, 131);
+  border-bottom: 1px solid rgba(31, 76, 131, 0.3);
 }
 
 .wrapper li a:hover{
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(31, 76, 131, 0.6);
 }
 
 ul{
- border-top: solid 3px #C9D0D4;
-  padding-top: 32px;
+  border-top: solid 3px #C9D0D4;
+  padding: 32px 0;
+}
+
+strong {
+  font-weight: bold;
 }
 
 
