@@ -257,6 +257,30 @@ h4 {
   padding: 0em .5em .5em 0 !important;
 }
 
+.sponsor-logo {
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 30%;
+  height: 100px;
+  margin: 0 5%;
+}
+
+#five-hundred {
+  background-image: url('../assets/sponsor_500.png');
+}
+#casper {
+  background-image: url('../assets/sponsor_casper.png');
+}
+#mongodb {
+  background-image: url('../assets/sponsor_mongodb.png');
+}
+#twilio {
+  background-image: url('../assets/sponsor_twilio.png');
+}
+
 /* ----------- Retina Screens ----------- */
 @media only screen and (max-width: 800px){
   .top-left {
