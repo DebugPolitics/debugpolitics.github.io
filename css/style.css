@@ -79,10 +79,12 @@ p {
   color: #7A8287;
   line-height: 30px;
 }
-#signup h2 {
-  font-family: OpenSans;
-  font-size: 36px;
-  color: #5C6266;
+#signup h2, #mc_embed_signup h2 {
+  font-family: OpenSans !important;
+  font-size: 36px !important;
+  color: #5C6266 !important;
+  text-align: center;
+  font-weight: normal !important;
 }
 #intro p {
   font-size: 1.2em;
@@ -124,14 +126,16 @@ a.button:hover{
   border-radius: 6px 0px 0px 6px;
   display: inline-block;
 }
-.emailInput {
+.emailInput, #mc_embed_signup .mc-field-group input {
   height: 42px !important;
-  padding-left: 16px;
-  width: 347px;
-  font-family: OpenSans;
-  font-size: 16px;
-  color: #5C6266;
-  border: 0;
+  padding: 0 0 0 16px !important;
+  width: 347px !important;
+  font-family: OpenSans !important;
+  font-size: 16px !important;
+  color: #5C6266 !important;
+  border: 0 !important;
+  display: inherit !important;
+  text-indent: 0 !important;
 }
 ::-webkit-input-placeholder {
   color: #B5B5B5;
@@ -244,17 +248,13 @@ h4 {
 
 /* ----------- Retina Screens ----------- */
 @media only screen and (max-width: 800px){
-  .input-group {
-
-  }
   .top-left {
     position: static;
     width: 31%;
   }
-  .emailInput {
-    width: auto;
-    font-size: 14px;
-    width: 200px;
+  .emailInput, #mc_embed_signup .mc-field-group input {
+    font-size: 14px !important;
+    width: 169px !important;
   }
   .btn {
     width: 88px;
@@ -300,4 +300,10 @@ h4 {
 /*  main {
     width: 600px;
   }*/
+}
+
+@media only screen and (max-width: 350px) {
+  .emailInput, #mc_embed_signup .mc-field-group input {
+    width: 128px !important;
+  }
 }
