@@ -63,7 +63,6 @@ body {
   margin-bottom: 42px;
   width: 100%;
   max-width: 300px;
-
 }
 
 p {
@@ -73,6 +72,18 @@ p {
   margin-bottom: 1.6em;
 }
 
+#signup p {
+  font-size: 1.2em;
+  font-family: OpenSans;
+  font-size: 20px;
+  color: #7A8287;
+  line-height: 30px;
+}
+#signup h2 {
+  font-family: OpenSans;
+  font-size: 36px;
+  color: #5C6266;
+}
 #intro p {
   font-size: 1.2em;
 }
@@ -84,7 +95,6 @@ h2 {
 a {
   color: #004E87;
 }
-
 
 .wrapper{
   background: #fff;
@@ -108,22 +118,54 @@ a.button{
 a.button:hover{
   background: #BA2323;
 }
+.input-group {
+  margin-bottom: 42px;
+  box-shadow: -1px 1px 12px 0 rgba(0,0,0,0.25);
+  border-radius: 6px 0px 0px 6px;
+  display: inline-block;
+}
 .emailInput {
   height: 42px !important;
-  margin-bottom: 10px;
+  padding-left: 16px;
+  width: 347px;
+  font-family: OpenSans;
+  font-size: 16px;
+  color: #5C6266;
+  border: 0;
 }
-#signup {
+::-webkit-input-placeholder {
+  color: #B5B5B5;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #B5B5B5;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #B5B5B5; 
+}
+
+:-ms-input-placeholder {  
+  color: #B5B5B5; 
+}
+.btn {
   background: #ED2E2E;
-  margin-bottom: 10px;
   padding: 10px 20px;
-  border-radius: 4px;
   color: #fff;
+  border: 0;
   display: inline-block;
+  width: 113px;
+  font-size: 15px;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
+  border-radius: 0 6px 6px 0;
+  height: 44px;
 }
 input.button:hover{
   background: #BA2323;
+}
+.input-group-btn {
+  display: inline;
 }
 
 footer {
@@ -157,13 +199,24 @@ section {
   border-top: solid 3px #C9D0D4;
   padding: 3em 0;
 }
+.wide-line {
+  border-top: solid 3px #C9D0D4;
+  width: 100%;
+}
 section.no-border {
   border-top: none;
   padding: 0;
 }
-strong {
-  font-weight: bold;
+.aside {
+  margin-top: 32px;
 }
+h4 {
+  font-family: OpenSans-Semibold;
+  font-size: 14px;
+  color: #5C6266;
+  margin-bottom: 8px;
+}
+
 
 @font-face {
     font-family: outage;
@@ -184,16 +237,30 @@ strong {
 
 .top-left {
   position: absolute;
-  width: 15%;
-  top: 0;
-  left: 0;
+  width: 10%;
+  top: 12px;
+  left: 21px;
 }
 
 /* ----------- Retina Screens ----------- */
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 800px){
+  .input-group {
+
+  }
   .top-left {
-    left: 35%;
-    width: 30%;
+    position: static;
+    width: 31%;
+  }
+  .emailInput {
+    width: auto;
+    font-size: 14px;
+    width: 200px;
+  }
+  .btn {
+    width: 88px;
+    font-size: 14px;
+    padding: 0;
+    height: 46px;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -230,4 +297,7 @@ strong {
     margin-left: auto;
     margin-right: auto;
   }
+/*  main {
+    width: 600px;
+  }*/
 }
