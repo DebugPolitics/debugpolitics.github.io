@@ -92,6 +92,7 @@ a {
   margin: 6% 10% 10%;
   text-align: center;
   padding: 5.6em 10% 5em;
+  position: relative;
 }
 
 a.button{
@@ -105,6 +106,23 @@ a.button{
 }
 
 a.button:hover{
+  background: #BA2323;
+}
+.emailInput {
+  height: 42px !important;
+  margin-bottom: 10px;
+}
+#signup {
+  background: #ED2E2E;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+input.button:hover{
   background: #BA2323;
 }
 
@@ -139,7 +157,10 @@ section {
   border-top: solid 3px #C9D0D4;
   padding: 3em 0;
 }
-
+section.no-border {
+  border-top: none;
+  padding: 0;
+}
 strong {
   font-weight: bold;
 }
@@ -161,7 +182,20 @@ strong {
     font-size: 40pt;
 }
 
+.top-left {
+  position: absolute;
+  width: 15%;
+  top: 0;
+  left: 0;
+}
+
 /* ----------- Retina Screens ----------- */
+@media only screen and (max-width: 500px){
+  .top-left {
+    left: 35%;
+    width: 30%;
+  }
+}
 @media only screen and (max-width: 500px) {
   body {
     font-size: 12px;
