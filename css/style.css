@@ -78,6 +78,7 @@ p {
   font-size: 20px;
   color: #7A8287;
   line-height: 30px;
+  text-align: center;
 }
 #signup h2, #mc_embed_signup h2 {
   font-family: OpenSans !important;
@@ -120,11 +121,15 @@ a.button{
 a.button:hover{
   background: #BA2323;
 }
+.mc-field-group {
+  margin-bottom: 33px;
+}
 .input-group {
-  margin-bottom: 42px;
   box-shadow: -1px 1px 12px 0 rgba(0,0,0,0.25);
   border-radius: 6px 0px 0px 6px;
-  display: inline-block;
+  display: block;
+  width: 480px;
+  margin: 0 auto;
 }
 .emailInput, #mc_embed_signup .mc-field-group input {
   height: 42px !important;
@@ -134,7 +139,7 @@ a.button:hover{
   font-size: 16px !important;
   color: #5C6266 !important;
   border: 0 !important;
-  display: inherit !important;
+  display: inline !important;
   text-indent: 0 !important;
 }
 ::-webkit-input-placeholder {
@@ -245,6 +250,10 @@ h4 {
   top: 12px;
   left: 21px;
 }
+#mc_embed_signup div.response {
+  font-size: 12px !important;
+  padding: 0em .5em .5em 0 !important;
+}
 
 /* ----------- Retina Screens ----------- */
 @media only screen and (max-width: 800px){
@@ -254,13 +263,17 @@ h4 {
   }
   .emailInput, #mc_embed_signup .mc-field-group input {
     font-size: 14px !important;
-    width: 169px !important;
+    width: 245px !important;
+    height: 48px !important;
+  }
+  .input-group {
+    width: 353px !important;
   }
   .btn {
     width: 88px;
     font-size: 14px;
     padding: 0;
-    height: 46px;
+    height: 48px;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -275,6 +288,29 @@ h4 {
   }
   body{
     background-image: none;
+  }
+  .emailInput, #mc_embed_signup .mc-field-group input {
+    width: 198px !important;
+  }
+  .input-group {
+    width: 306px !important;
+  }
+  #mc_embed_signup div.response {
+    font-size: 10px !important;
+  }
+  #mc_embed_signup {
+    margin-top: -25px;
+  }
+  .mc-field-group {
+    margin-bottom: 40px;
+  }
+  #signup {
+    margin-top: -20px;
+  }
+  #signup p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 32px;
   }
 }
 
@@ -305,5 +341,8 @@ h4 {
 @media only screen and (max-width: 350px) {
   .emailInput, #mc_embed_signup .mc-field-group input {
     width: 128px !important;
+  }
+  .input-group {
+    width: 236px !important;
   }
 }
