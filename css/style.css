@@ -74,14 +74,14 @@ p {
 
 #signup p {
   font-size: 1.2em;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   color: #7A8287;
   line-height: 30px;
   text-align: center;
 }
 #signup h2, #mc_embed_signup h2 {
-  font-family: OpenSans !important;
+  font-family: 'Open Sans', sans-serif !important;
   font-size: 36px !important;
   color: #5C6266 !important;
   text-align: center;
@@ -135,7 +135,7 @@ a.button:hover{
   height: 42px !important;
   padding: 0 0 0 16px !important;
   width: 347px !important;
-  font-family: OpenSans !important;
+  font-family: 'Open Sans', sans-serif; !important;
   font-size: 16px !important;
   color: #5C6266 !important;
   border: 0 !important;
@@ -220,10 +220,11 @@ section.no-border {
   margin-top: 32px;
 }
 h4 {
-  font-family: OpenSans-Semibold;
+  font-family: OpenSans-Semibold, sans-serif;
   font-size: 14px;
   color: #5C6266;
   margin-bottom: 8px;
+  font-weight: bold;
 }
 
 
