@@ -147,15 +147,15 @@ a.button:hover{
 }
 
 :-moz-placeholder { /* Firefox 18- */
-  color: #B5B5B5;  
+  color: #B5B5B5;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-  color: #B5B5B5; 
+  color: #B5B5B5;
 }
 
-:-ms-input-placeholder {  
-  color: #B5B5B5; 
+:-ms-input-placeholder {
+  color: #B5B5B5;
 }
 .btn {
   background: #ED2E2E;
@@ -170,8 +170,9 @@ a.button:hover{
   border-radius: 0 6px 6px 0;
   height: 44px;
 }
-input.button:hover{
+button:hover{
   background: #BA2323;
+  cursor: pointer;
 }
 .input-group-btn {
   display: inline;
