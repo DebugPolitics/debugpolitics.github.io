@@ -178,10 +178,6 @@ button:hover{
   display: inline;
 }
 
-footer {
-  margin-top: 4em;
-}
-
 footer a {
   color: #aaa;
 }
@@ -255,6 +251,30 @@ h4 {
 #mc_embed_signup div.response {
   font-size: 12px !important;
   padding: 0em .5em .5em 0 !important;
+}
+
+.sponsor-logo {
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 30%;
+  height: 100px;
+  margin: 0 5%;
+}
+
+#five-hundred {
+  background-image: url('../assets/sponsor_500.png');
+}
+#casper {
+  background-image: url('../assets/sponsor_casper.png');
+}
+#mongodb {
+  background-image: url('../assets/sponsor_mongodb.png');
+}
+#twilio {
+  background-image: url('../assets/sponsor_twilio.png');
 }
 
 /* ----------- Retina Screens ----------- */
