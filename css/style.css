@@ -175,14 +175,16 @@ a.button:active{
   display: inline-block;
   width: 113px;
   font-size: 15px;
+  font-weight: bolder;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   border-radius: 0 6px 6px 0;
   height: 44px;
 }
 button:hover{
-  background: #BA2323;
+  background: #14d;
   cursor: pointer;
+  transition: background .3s ease-in-out;
 }
 .input-group-btn {
   display: inline;
