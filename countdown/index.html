@@ -51,10 +51,10 @@
     }();
 
     submitButton.addEventListener('click', function (e) {
-      e.preventDefault(); 
+      e.preventDefault();
       var toDate = new Date(yearElement.value, monthElement.value - 1, dayElement.value,
                             hourElement.value, minuteElement.value, secondsElement.value);
-      
+
       window.location.href = 'clock.html?to=' + toDate.getTime() + "&label=" + labelElement.value;
     });
   });
