@@ -381,15 +381,15 @@ h4 {
   }
 }
 
-#i1:hover{
+#social-icon1:hover{
   color: rgb(10, 157, 237);
   transition: .4s ease-in-out;
 }
-#i2:hover{
+#social-icon2:hover{
   color: rgb(59, 89, 152);
   transition: .4s ease-in-out;
 }
-#i3:hover{
+#social-icon3:hover{
   color: #323131;
   transition: .4s ease-in-out;
 }
