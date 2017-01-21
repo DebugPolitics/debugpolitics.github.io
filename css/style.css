@@ -383,13 +383,13 @@ h4 {
 
 #social-icon1:hover{
   color: rgb(10, 157, 237);
-  transition: .4s ease-in-out;
+  transition: .3s ease-in-out;
 }
 #social-icon2:hover{
   color: rgb(59, 89, 152);
-  transition: .4s ease-in-out;
+  transition: .3s ease-in-out;
 }
 #social-icon3:hover{
   color: #323131;
-  transition: .4s ease-in-out;
+  transition: .3s ease-in-out;
 }
