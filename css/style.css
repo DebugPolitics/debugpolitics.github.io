@@ -395,10 +395,6 @@ h4 {
   color: #323131;
   transition: .3s ease-in-out;
 }
-.fa-github:hover{
-  color: rgb(51, 255, 0);
-  transition: .3s ease-in-out;
-}
 .fa:hover{
   transition: .3s ease-in-out;
 }
