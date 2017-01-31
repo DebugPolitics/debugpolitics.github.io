@@ -385,15 +385,12 @@ h4 {
 }
 .fa-twitter:hover{
   color: rgb(10, 157, 237);
-  transition: .3s ease-in-out;
 }
 .fa-facebook:hover{
   color: rgb(59, 89, 152);
-  transition: .3s ease-in-out;
 }
 .fa-instagram:hover{
   color: #323131;
-  transition: .3s ease-in-out;
 }
 .fa-github:hover{
   color:rgb(112, 255, 0);
