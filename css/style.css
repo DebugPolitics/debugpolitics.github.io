@@ -182,6 +182,10 @@ footer a {
   color: #aaa;
 }
 
+footer a:hover {
+  color: rgb(196, 187, 203);
+}
+
 footer .social a {
   font-size: 1.6em;
   margin: 0 .5em;
